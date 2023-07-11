@@ -46,6 +46,15 @@ body {
     color: #e39292;
   }
 
+  .title{
+    margin: 0px;
+    font-size: 25px;
+    margin-bottom: -20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #e39292;
+    font-style: normal;
+  }
+
   button:active {
     border: 1px solid #ccc;
     outline: none;

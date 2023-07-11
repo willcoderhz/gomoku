@@ -94,6 +94,7 @@ class Game extends React.Component {
   
     return (
       <div className="game">
+        <div className='title'><h2>Gomoku</h2></div>
         <div className="status">{status}</div>
         <div>{board}</div>
       </div>

@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+  }
+
+  
+  
+  button {
+    width: 40px;
+    height: 40px;
+    margin: 0px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-style: solid;
+    outline: none;
+    box-sizing: border-box;
+    vertical-align: middle; /* 新增 */
+  }
+  
+  button:hover {
+    background-color: #eee;
+  }
+  
+  button:disabled {
+    background-color: #ddd;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button.X {
+    background-color: #89f9b8a6;
+    color: #44d782;
+  }
+  
+  button.O {
+    background-color: #f0d1d1;
+    color: #e4aeae;
+  }
+  
+  div.status {
+    margin: 20px;
+    font-size: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #e39292;
+  }
+
+  button:active {
+    border: 1px solid #ccc;
+    outline: none;
+    box-shadow: none;
+  }
+
+  .game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh; /* 视口的高度 */
+  }
+
+  @media only screen and (max-width: 600px) {
+    button {
+      width: 22px;
+      height: 22px;
+    }
+    
+    div.status {
+      font-size: 25px;
+    }
+  }
+  

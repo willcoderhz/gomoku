@@ -31,12 +31,14 @@ body {
   
   button.X {
     background-color: #89f9b8a6;
-    color: #44d782;
+    color: #2cbd69;
+    font-weight:bolder;
   }
   
   button.O {
-    background-color: #f0d1d1;
-    color: #e4aeae;
+    background-color: #f0d1d1b6;
+    color: #d77f7f;
+    font-weight:bolder;
   }
   
   div.status {
